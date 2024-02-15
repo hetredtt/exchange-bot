@@ -17,7 +17,7 @@ async def convert(code_from, code_to, amount):
     return response.json()['result']
 
 async def codes():
-    url = "http://10.231.202.221:7050/code/list"
+    url = "http://127.0.0.1:7050/code/list"
     response = requests.get(url)
     data = response.json()
     return data
