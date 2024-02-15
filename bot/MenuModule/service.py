@@ -12,7 +12,7 @@ async def help(bot, message):
     help = """
 Команда /convert используется для того чтобы конвертировать сумму из одной валюты в другую.
 Пример использования: 
-\"/convert 100 from UZD to UZS\"
+\"/convert 100 from USD to UZS\"
 Узнать коды валют можно с помощью команды /codes
 """
     await bot.send_message(chat_id=message.chat.id, text=help)
